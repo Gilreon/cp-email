@@ -16,7 +16,45 @@
             }
 
             .header-left {
-                padding: 36px 15px 70px 15px !important;
+                padding: 36px 50px 70px !important;
+            }
+
+            .lets-you-row {
+                padding: 0px 50px;
+            }
+
+            .advanced-table {
+                padding: 0px 50px ;
+                background: white;
+            }
+
+            .one-solution-table {
+               text-align: center;
+
+            }
+
+            .one-solution-table img {
+                max-width: 611px;
+
+            }
+
+            .join-together-table .left-column {
+                padding: 15px 50px 70px 50px !important;
+
+            }
+
+            .join-together-table .middle-column {
+                padding: 20px 50px !important;
+
+            }
+
+            .join-together-table .right-column {
+                padding: 20px 50px !important;
+
+            }
+
+            .detail-table {
+                padding: 50px 50px 25px !important;
             }
         }
         /* midsizes */
@@ -37,6 +75,76 @@
             .header-right {
                 width: 100%;
             }
+
+            .lets-you-row .left-column{ 
+                width: 50%;
+
+
+            }
+
+            .lets-you-row .middle-column{ 
+                width: 50%;
+
+
+            }
+
+            .lets-you-row .right-column{ 
+                width: 100%;
+
+
+            }
+            
+            .advanced-table .image-head {
+                width: 100%;
+
+            }
+
+            .advanced-table .left-column {
+                width: 100%;
+
+            }
+
+            .advanced-table .right-column {
+                width: 100%;
+
+            }
+
+            .advanced-table .right-column .right-store {
+                text-align: center;
+                width: 100%;
+            }
+
+            .advanced-table .left-column .left-store {
+                text-align: center;
+                width: 100%;
+            }
+
+            .join-together-table .left-column {
+                width: 100%;
+                padding: 20px 50px !important;
+
+            }
+
+            .join-together-table .middle-column {
+                width: 100%;
+                padding: 20px 50px !important;
+
+            }
+
+            .join-together-table .right-column {
+                width: 100%;
+                padding: 20px 50px !important;
+
+            }
+
+            .detail-table .one-row-table .left-column {
+                width:100%;
+            }
+
+            .detail-table .one-row-table .right-column {
+                width:100%;
+            }
+
             
         }
     </style>
@@ -246,7 +354,7 @@
                                 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; 
                                 color: #333333;font-size: 26px; padding: 36px 0 5px 0;font-weight:300;"
                                 align='center'>
-                                    <img src="img/image_head.jpg" alt="head">
+                                    <img class='image-head' src="img/image_head.jpg" alt="head">
                                 </td>
                             </tr>
 
@@ -278,7 +386,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td align='right'>
+                                        <td align='right' class='left-store'>
                                             <img src="img/appstore.png" alt="appstore">
                                         </td>
                                     </tr>
@@ -298,7 +406,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td>
+                                        <td align='left' class='right-store'>
                                             <img src="img/playstore.png" alt="playstore">
                                         </td>
                                     </tr>
@@ -543,15 +651,15 @@
                                 </td>
                             </tr>
                              <!-- end of one row table-->
-                             <!-- start of one row table-->
-                            <tr>
+                              <!-- start of one row table-->
+                              <tr>
                                 <td>
-                                    <table class='left-column' width='100%' align='left' cellspacing='0' cellpadding='0' border='0'
+                                    <table class='one-row-table' width='100%' align='left' cellspacing='0' cellpadding='0' border='0'
                                     style= 'padding: 0;'>
                                     <tr>
                                         <td>
                                             <!-- start of column table-->
-                                            <table class='column-table' width='50%' align='left' cellspacing='0' cellpadding='0' border='0'
+                                            <table class='left-column' width='50%' align='left' cellspacing='0' cellpadding='0' border='0'
                                             style= 'padding: 0px 15px 20px;'>
                                             <tr> 
                                                 <td>
@@ -567,7 +675,7 @@
                                                     <td style="font-family: 'Open Sans', 
                                                     'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; 
                                                     color: #333333;font-size: 14px; padding: 0 0 0 15px;font-weight:600;
-                                                    text-transform: uppercase;">Various Skins
+                                                    text-transform: uppercase;">Various Skins </td>
                                                         </td>
                                                     </table>
                                                     <!-- end of icon table -->
@@ -584,12 +692,12 @@
                                         </table>
                                             <!-- end of column table-->
                                             <!-- start of column table-->
-                                            <table class='column-table' width='50%' align='left' cellspacing='0' cellpadding='0' border='0'
+                                            <table class='right-column' width='50%' align='left' cellspacing='0' cellpadding='0' border='0'
                                             style= 'padding: 0px 15px 20px;'>
                                             <tr>
                                                 <td>
                                                    <!-- start of icon table -->
-                                                    <table class='right-column' width='100%' align='left' cellspacing='0' cellpadding='0' border='0'
+                                                    <table class='icon-table' width='100%' align='left' cellspacing='0' cellpadding='0' border='0'
                                                     style= 'background: white;'>
                                                     <td style="font-family: 'Open Sans', 
                                                     'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; 
@@ -647,7 +755,7 @@
                                                     <td style="font-family: 'Open Sans', 
                                                     'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; 
                                                     color: #333333;font-size: 14px; padding: 0 0 0 15px;font-weight:600;
-                                                    text-transform: uppercase;">UserFriendly Menus
+                                                    text-transform: uppercase;">User Friendly Menus </td>
                                                         </td>
                                                     </table>
                                                     <!-- end of icon table -->
@@ -759,19 +867,19 @@
                                         <img src="img/twitter_icon.png" alt="twitter_icon">
                                         </td>
                                         <td align='center'>
-                                            <img src="img/facebook_icon.png" alt="facebook_icon">
+                                            <a href='http://www.facebook.com'><img src="img/facebook_icon.png" alt="facebook_icon"></a>
                                             </td>
                                             <td align='center'>
-                                                <img src="img/google_icon.png" alt="google_icon">
+                                                <a href='http://www.google.com'><img src="img/google_icon.png" alt="google_icon"></a>
                                                 </td>
                                                 <td align='center'>
-                                                    <img src="img/pinterest_icon.png" alt="pinterest_icon">
+                                                    <a href='http://www.pinterest.com'><img src="img/pinterest_icon.png" alt="pinterest_icon"></a>
                                                     </td>
                                                     <td align='center'>
-                                                        <img src="img/linkedin_icon.png" alt="linkedin_icon">
+                                                        <a href='http://www.linkedin.com'><img src="img/linkedin_icon.png" alt="linkedin_icon"></a>
                                                         </td>
                                                         <td align='center'>
-                                                            <img src="img/youtube_icon.png" alt="youtube_icon">
+                                                            <a href='http://www.youtube.com'><img src="img/youtube_icon.png" alt="youtube_icon"></a>
                                                             </td>
                                                         </tr>
                                                 </table>
